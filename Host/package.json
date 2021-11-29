@@ -1,0 +1,27 @@
+{
+  "name": "post-message-example",
+  "version": "1.0.0",
+  "description": "An example implementation of window.postMessage() functionality in javascript.",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-serve -p 4200",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aneeshbhatb/Window.postMessage.git"
+  },
+  "keywords": [
+    "javascript",
+    "postMessage",
+    "iframe",
+    "chat",
+    "message"
+  ],
+  "author": "Aneesh Bhat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aneeshbhatb/Window.postMessage/issues"
+  },
+  "homepage": "https://github.com/aneeshbhatb/Window.postMessage#readme"
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Example of window postMessage in javascript">
+    <title>Window.postMessage()</title>
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="assets/chat.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-username">
+            Frame
+        </div>
+        <div class="chat-body">
+            <div id="chat-messages" class="chat-messages custom-scroll">
+                <div class="no-message"><div>No Messages</div></div>
+            </div>
+            <div class="chat-actions">
+                <input 
+                    class="chat-input" 
+                    type="text" 
+                    value="" 
+                    id="message" 
+                    placeholder="Type a message"
+                    autocomplete="off"
+                >
+                <button class="send-btn" id="send" title="Send">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-send"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>                      
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
